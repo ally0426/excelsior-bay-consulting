@@ -4,11 +4,19 @@
   "description": "Iterating update for website",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "selenium-setup": "selenium-standalone install",
+    "selenium-start": "selenium-standalone start",
+    "e2e-tests": "wdio wdio.conf.js",
+    "e2e-tests-watch": "wdio wdio.conf.js --watch"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "chai": "^4.1.2",
+    "gulp": "^3.9.1",
+    "mocha": "^4.0.1",
     "selenium-standalone": "^6.11.0",
     "wdio-dot-reporter": "0.0.9",
     "wdio-mocha-framework": "^0.5.11",
