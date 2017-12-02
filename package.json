@@ -1,0 +1,18 @@
+{
+  "name": "excelsior-bay-consulting",
+  "version": "1.0.0",
+  "description": "Iterating update for website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "selenium-standalone": "^6.11.0",
+    "wdio-dot-reporter": "0.0.9",
+    "wdio-mocha-framework": "^0.5.11",
+    "wdio-selenium-standalone-service": "0.0.9",
+    "webdriverio": "^4.9.11"
+  }
+}
