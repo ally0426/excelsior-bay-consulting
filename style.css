@@ -1,63 +1,53 @@
 body {
 	background-image:url("https://cdn.wallpapersafari.com/20/36/QbYFZs.jpg");
 	background-size: cover;
-	background-repeat: no-repeat;
-	font-family: Roboto Slab;
+	
+	background-repeat: no-repeat
+    font-family: Lato;
+    color: ghostwhite;
+}
+
+html {
+	height: 100%;
+}
+
+.navbar-brand {
+	font-weight: bold;
+}
+.navbar-right {
+	text-align: center;
+}
+
+#content {
+	text-align: center;
+	padding-top: 18%;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+	             0px 8px 13px rgba(0,0,0,0.2),
+	             0px 18px 23px rgba(0,0,0,0.1);
 }
 
 h1 {
-	text-align: center;
-	color: #051a3d;
-}
-
-.jumbotron {
-	margin: 20px auto;
-}
-
-#text-shadow {
-	text-shadow: 1px 1px 2px black; 
-}
-
-img {
-	display:block;
-	margin-left:auto;
-	margin-right:auto;
+	font-weight: 700;
+	font-size: 5em;
 }
 
 hr {
-	width: 40%;
-	border-top: 2px solid #051a3d;
-}
-p {
-	color:white;
-	text-align:center;
-	font-size:xx-large;
-}
-p.medium {
-	font-size:medium;
-}
-form {
-	color:white;
-	width: 30%;
-	margin: 20px auto;
-	font-size: 20px;
-}
-label {
-	margin:2px;
+	width: 500px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: : 1px solid rgba(0,0,0,0.2);
 }
 
-button {
-	width: 120px;
-	height: 40px;
+#logo {
+	max-width: 33%;
+	max-margin-left: -60px;
+	
 }
 
-#address {
-	color:#ff1111;
-	font-weight: bold;
+.collapsed {
+	margin: auto;
 }
 
-#submit {
-	font-weight: bold;
-	font-size: 20px;
-	padding-top: 0;
+footer {
+	text-align: center;
+	margin-top: 60px;
 }

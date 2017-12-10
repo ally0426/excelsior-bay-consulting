@@ -1,99 +1,64 @@
+<!DOCTYPE html>
+<html>
+
 <head>
-	<title>Excelsior Bay Consulting</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="index_v1.css">
+  <title>Excelsior Bay Consulting</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="test.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>
 
 <body>
 
 <nav class="navbar navbar-default">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar">About</span>
-          <span class="icon-bar">Contact</span>
-          <span class="icon-bar">FAQ</span>
-        </button>
-        <a href="#" class="navbar-brand">Excelsior Bay Consulting</a>
-       </div>
-      <div class="collapse nav-collapse" id="bs-nav-demo">
-       <ul class="nav navbar-nav">
-         <li><a href="#">About</a></li>
-         <li><a href="#">Contact</a></li>
-       </ul>
-       <ul class="nav navbar-nav navbar-right">
-         <li><a href="#">Sign Up</a></li>
-         <li><a href="#">Login</a></li>
-         <li><a href="#">Logout</a></li>
-       </ul>
-     </div>
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><image class="image-fluid" id="logo" alt="logo" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/983455/b3cb3ebaf1837c28ac9eeda4fc40711c.png"></a>
     </div>
-  </nav>
 
-
-	<div class="container">
-     <div class="jumbotron">
-<h1>
-	<i id=text-shadow>A smooth sea never made a skillful sailor...</>
-</h1>
-
-<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/983455/b3cb3ebaf1837c28ac9eeda4fc40711c.png">
-	
-<hr> 
-	
-<p id="address">
-	Casco Run<br/>
-	3701 Shoreline Drive<br/>
-	Orono, MN 55391<br/>
-	<br/>
-	</div>
-	</div>
-</p>
-<p id="exp">
-	25 Years Manufacturing and Engineering Experience
-</p>
-
-<p>Engineering Recruitment Services</p>
-<p id="phone">952-470-1600</p>
-<p>Contract | Contract to Direct | FTE</P>
-<p>Qualified and Vetted Engineering Talent Today</p>
-<p>100% Gaurantee on all Placements</p>
-<p>
-	Please Contact EBC with Talent<br/>
-	Request or Submit your Resume in<br/>
-	Complete Confidence. Thank You!<br/>
-</p>
+    <div class="collapse navbar-collapse" id="collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Apply</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>  
 
 <div class="container">
-<form>
-  <div class="form-group">
-	  <label for="name">Name</label>
-    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Jane Smith">
-    <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+  <div class="row">
+    <div class="col-lg-12">
+      <div id="content">
+        <h1>Excelsior Bay Consulting</h1>
+        <h2>A smooth sea never made a skillful sailor...</h3> 
+
+        <hr>
+
+        <h4>25 Years Manufacturing and Engineering Experience Engineering Recruitment Services</h4>
+        <h4>Call 952-470-1600  Contract | Contract to Direct | FTE</h4>
+        <h4>Qualified and Vetted Engineering Talent Today</h4>
+        <h4>100% Gaurantee on all Placements</h4>
+        <h5>Please Contact EBC with Talent Request or Submit your Resume in Complete Confidence. Thank You!</h5>
+        
+        <button class="btn btn-default btn-lg"><i class="fa fa-mouse-pointer"></i> Get Started!</button>
+        
+      </div>
+    </div>
   </div>
-  <div class="form-group">
-    
-  </div>
-  <div class="form-group">
-    <label for="exampleInputFile">Upload Resume</label>
-    <input type="file" id="exampleInputFile">
-    <p class="help-block"></p>
-  </div>
-  <div class="checkbox">
-    <label>
-      <input type="checkbox"> Yes, I Want Email Updates!
-    </label>
-  </div>
-  <input id="submit" type="submit" class="form-control">
-  	
-  </form>
 </div>
 
-</body>
+<footer>Copyright © Excelsior Bay Consulting, LLC. All rights reserved.</footer>
 
-<footer>
-	<p class="medium">Copyright &#169 Excelsior Bay Consulting, LLC. All rights reserved.</p>
-</footer>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
