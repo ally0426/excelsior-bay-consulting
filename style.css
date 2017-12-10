@@ -39,12 +39,12 @@ hr {
 
 #logo {
 	max-width: 33%;
-	margin-left: -60px;
-	
+	max-margin-left: -60px;
 }
 
 .collapsed {
 	margin: auto;
+	max-padding-top: -100px;
 }
 
 footer {
