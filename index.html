@@ -11,8 +11,8 @@
 
 <body>
 
-<nav class="navbar navbar-default">
-  <div class="container">
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+  <div class="container" id="navbar">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
@@ -25,10 +25,18 @@
 
     <div class="collapse navbar-collapse" id="collapse">
       <ul class="nav navbar-nav navbar-right">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">Apply</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Careers</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Candidates</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Employers</a>
+          </div>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
       </ul>
     </div>
   </div>
