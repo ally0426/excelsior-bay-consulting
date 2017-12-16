@@ -8,10 +8,87 @@
         <meta name="Contact Form to send emails" content="Contact Us Form">
         <meta name="keywords--fill in later" content="xx">
 
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" rel="stylesheet" />        
+        <link href="style.css" type="text/css" rel="stylesheet" />
     </head>
 
     <body>
-        <p>content will be here</p>
+        <form action="/my-handling-form-page" method="post">
+            
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="First Name" required value="">
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Last Name" required value="">
+                        </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="email@domain.com" required value="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Company" required value="">
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Title" required value="">
+                        </div>
+                </div>
+            </div> 
+            
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="dropdown form-group">
+                        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example<span class="caret"></span></button>
+                        <ul class="dropdown-menu ">
+                            <li><a href="#">HTML</a></li>
+                            <li><a href="#">CSS</a></li>
+                            <li><a href="#">JavaScript</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Phone" required value="">
+                        </div>
+                </div>
+            </div>
+
+            <div class="row">
+                    <div class="col-sm-12">
+                        <div class="form-group">
+                            <textarea class="form-control" placeholder="Enter text" required value=""></textarea>
+                        </div>
+                    </div>
+            </div> 
+
+            <div class="row">
+                    <div class="col-sm-12">
+                            <div class="form-group">
+                                <button type="submit" class="form-control" >SUBMIT</button>
+                            </div>
+                    </div>
+                </div> 
+                           
+         </form>
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 
     </body>
 </html>

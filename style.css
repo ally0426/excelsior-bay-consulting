@@ -26,3 +26,4 @@ form {
 label {
 	margin:2px;
 }
+.dropdown-menu > ul { float: left; width: 100%; }
